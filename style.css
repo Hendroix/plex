@@ -1,0 +1,119 @@
+label {
+	font-size: 26px;
+    font-weight: bold;
+}
+html{
+	background-color: lightgrey; 
+}
+body{
+	background-color: lightgrey;
+}
+
+.footer{
+	border-top: solid black 4px; 
+	padding: 10px; 
+	bottom: 0%; 
+	position: fixed; 
+	width: 100%;
+	background-color: lightgrey;
+}
+.infocard{
+	margin-left: 25%; 
+	margin-right: 25%;
+	margin-top: 2%;
+	border: solid black 4px;
+	border-radius: 10px;
+}
+.footerFill{
+	height: 65px;
+}
+.infocardImg{
+	float: right; 
+	height: 100px; 
+	width: 100px; 
+	margin: 15px;
+}
+.raiting{
+	padding: 5px; 
+	border: solid black 2px;
+	border-radius: 10px;
+	margin-right: 5px; 
+	width: 35px; 
+	text-align: center;
+}
+.selected{
+	background-color: #007bff !important;
+}
+.stretchInputbox{
+	width: 85% !important;
+	max-width: 710px;
+	min-width: 60px;
+}
+.editButton{
+    float: right;
+    margin-top: -25px !important;
+    margin-right: -10px !important;
+}.newEditButton{
+    float: right;
+    margin-top: -45px !important;
+    margin-right: 5px !important;
+}
+.star {
+  height: 100px;
+  width: 100px;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  text-align: center;
+  background: #007bff;
+  color: white;
+  position: relative;
+  left: 45%;
+}
+.raitingContainer{
+	display: flex;
+	margin-left: 26%;
+}
+.star::before {
+  display: inline-block;
+  height: 100%;
+  background: blue;
+  vertical-align: middle;
+  content: '';
+}
+.grid{
+	display: grid;
+}
+.help-block{
+	margin-left: 10px !important;
+}
+.checkbox{
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.table tr td{
+	vertical-align: middle !important;
+}
+
+@media all and (min-width: 0px) and (max-width: 1700px){
+	.infocard{
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	.infocard h1{
+		font-size: 46px;
+		font-weight: bolder;
+	}	
+	.infocard h4{
+		font-size: 36px;
+	}
+	.footerFill{
+		height: 150px;
+	}
+	.footer div{
+		
+	}
+}
