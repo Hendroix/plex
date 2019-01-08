@@ -1,12 +1,29 @@
 label {
 	font-size: 26px;
     font-weight: bold;
+    color: #eee;
 }
 html{
-	background-color: lightgrey; 
+	background-color: #4B5566; 
 }
 body{
-	background-color: lightgrey;
+	background-color: #4B5566;
+}
+h1{
+	font-size: 26px;
+	color: #eee;
+}h4{
+	font-size: 16px;
+	color: #eee;
+}
+input, select, textarea{
+ 	background-color: lightgrey !important;
+}
+input:focus, select:focus, textarea:focus{
+	background-color: white !important;
+}
+th, td{
+	color: #eee;
 }
 
 .footer{
@@ -15,14 +32,15 @@ body{
 	bottom: 0%; 
 	position: fixed; 
 	width: 100%;
-	background-color: lightgrey;
+	background-color: #4B5566;
 }
 .infocard{
 	margin-left: 25%; 
 	margin-right: 25%;
 	margin-top: 2%;
-	border: solid black 4px;
+	border: solid #323944 4px;
 	border-radius: 10px;
+	background-color: #2A303A;
 }
 .footerFill{
 	height: 65px;
